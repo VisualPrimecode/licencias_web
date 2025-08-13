@@ -8405,7 +8405,8 @@ _.c=_.a=_.e=_.d=null},
 azg:function azg(a,b,c){this.a=a
 this.b=b
 this.c=c},
-azj:function azj(a){this.a=a},
+azj:function azj(a,b){this.a=a
+this.b=b},
 azk:function azk(a,b){this.a=a
 this.b=b},
 azl:function azl(a,b){this.a=a
@@ -48916,7 +48917,7 @@ return A.n(p.a08(0,"user_role"),$async$vu)
 case 3:q.F(new o.azg(q,n,b))
 return A.r(null,r)}})
 return A.t($async$vu,r)},
-D(a){var s,r,q,p=this,o=null,n=A.fG(a,!0,t.R).a,m=n==null?o:n.a,l=t.vJ,k=A.W(new A.aO(B.MH,new A.azj(m),l),!0,l.i("v.E"))
+D(a){var s,r,q,p=this,o=null,n=A.fG(a,!0,t.R).a,m=n==null?o:n.a,l=t.vJ,k=A.W(new A.aO(B.MH,new A.azj(p,m),l),!0,l.i("v.E"))
 l=A.cI(o,!1,B.eW,!0,0,B.a_S)
 s=t.p
 r=A.b([],s)
@@ -48955,9 +48956,10 @@ s.d=this.b
 s.e=this.c},
 $S:0}
 A.azj.prototype={
-$1(a){var s
-if(this.a===5){s=a.a
-return s!=="crud usuarios"&&s!=="configuracion de correos"&&s!=="crud empresas"&&s!=="crud productos"&&s!=="crud plantillas"&&s!=="crud seriales"&&s!=="crud envios"&&s!=="Informes"}return!0},
+$1(a){var s=this.a.e
+if((s==null?null:s.toLowerCase())==="agente"){if(this.b===5){s=a.a
+return s==="Pedidos"||s==="Cotizaciones"||s==="Envio Manual"}s=a.a
+return s!=="crud usuarios"&&s!=="configuracion de correos"&&s!=="crud empresas"&&s!=="crud productos"&&s!=="crud plantillas"&&s!=="crud seriales"&&s!=="crud envios"&&s!=="Informes"&&s!=="Pedidos"&&s!=="Cotizaciones"}return!0},
 $S:505}
 A.azk.prototype={
 $0(){return this.a.AF(this.b)},
@@ -48981,7 +48983,7 @@ $S:518}
 A.eY.prototype={}
 A.CQ.prototype={
 Z(){var s=$.ae()
-return new A.Ih(new A.b9(new A.bs("carlos@ejemplo.com",B.a4,B.R),s),new A.b9(new A.bs("secreta123",B.a4,B.R),s))}}
+return new A.Ih(new A.b9(new A.bs("",B.a4,B.R),s),new A.b9(new A.bs("",B.a4,B.R),s))}}
 A.Ih.prototype={
 ant(){return this.F(new A.azd(this))},
 vv(){var s=0,r=A.u(t.H),q,p=2,o=[],n=[],m=this,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2
