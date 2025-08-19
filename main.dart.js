@@ -46074,7 +46074,7 @@ c=d.c
 d=d.e
 a1=b1.h(b4,"customer_name")
 if(a1==null)a1="Sin nombre"
-a5=(b5==null?null:B.c.bW(b5).length!==0)===!0?b5:"cl.rodriguezo@duocuc.cl"
+a5=(b5==null?null:B.c.bW(b5).length!==0)===!0?b5:b1.h(b4,"customer_email")
 l=A.T(["empresa_id",c,"usuario_id",d,"nombre_cliente",a1,"email_cliente",a5,"numero_pedido",b1.h(b4,"id"),"woocommerce_id",n.a.d,"productos",m],b,a)
 p=8
 s=11
@@ -49330,7 +49330,7 @@ m=o.d
 o=o.e
 i=c.h(a,"customer_name")
 if(i==null)i="Sin nombre"
-e=(a0==null?null:B.c.bW(a0).length!==0)===!0?a0:"cl.rodriguezo@duocuc.cl"
+e=(a0==null?null:B.c.bW(a0).length!==0)===!0?a0:c.h(a,"customer_email")
 s=6
 return A.n(A.uu(A.T(["empresa_id",m,"usuario_id",o,"nombre_cliente",i,"email_cliente",e,"numero_pedido",c.h(a,"id"),"woocommerce_id",p.a.c,"productos",n],l,k)),$async$vD)
 case 6:d=a2
