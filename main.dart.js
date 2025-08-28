@@ -46791,12 +46791,15 @@ a7=a7.e
 a9=b5.h(b8,"customer_name")
 if(a9==null)a9="Sin nombre"
 b0=(b9==null?null:b9.length!==0)===!0?b9:b5.h(b8,"customer_email")
-a4=A.U(["empresa_id",a8,"usuario_id",a7,"nombre_cliente",a9,"email_cliente",b0,"numero_pedido",b5.h(b8,"id"),"woocommerce_id",n.a.d,"productos",l],t.N,t.z)
+b5=b5.h(b8,"id")
+b2=n.a.d
+b3=m?"reenvio":"nuevo"
+a4=A.U(["empresa_id",a8,"usuario_id",a7,"nombre_cliente",a9,"email_cliente",b0,"numero_pedido",b5,"woocommerce_id",b2,"productos",l,"envio_tipo",b3],t.N,t.z)
 s=18
 return A.n(A.uC(a4),$async$lD)
 case 18:a5=c1
-b5=A.i(a5)
-n.c.O(t.q).f.b0(A.da(null,null,null,null,null,B.j,null,A.E("\u2705 Env\xedo creado con \xe9xito (ID: "+b5+")",null,null,null,null,null,null,null),null,B.D,null,null,null,null,null,null,null,null,null))
+b3=A.i(a5)
+n.c.O(t.q).f.b0(A.da(null,null,null,null,null,B.j,null,A.E("\u2705 Env\xedo creado con \xe9xito (ID: "+b3+")",null,null,null,null,null,null,null),null,B.D,null,null,null,null,null,null,null,null,null))
 n.E(new A.aCw(n))
 p=2
 s=6
@@ -50127,7 +50130,7 @@ $S:547}
 A.en.prototype={}
 A.Dg.prototype={
 U(){var s=$.ac()
-return new A.IN(new A.b4(new A.bz("carlos@ejemplo.com",B.a7,B.T),s),new A.b4(new A.bz("secreta123",B.a7,B.T),s))}}
+return new A.IN(new A.b4(new A.bz("",B.a7,B.T),s),new A.b4(new A.bz("",B.a7,B.T),s))}}
 A.IN.prototype={
 aoV(){return this.E(new A.aBl(this))},
 vG(){var s=0,r=A.u(t.H),q,p=2,o=[],n=[],m=this,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2
