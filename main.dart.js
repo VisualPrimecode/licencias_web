@@ -52676,7 +52676,7 @@ return A.dB(!1,s,s,s,!0,s,s,!0,!1,B.rC,s,s,s,!1,s,s,s,A.u("Cantidad: "+a.c+"\nVe
 $S:716}
 A.Ee.prototype={
 T(){var s=$.ae()
-return new A.JQ(new A.aN(new A.bg("carlos@ejemplo.com",B.a4,B.W),s),new A.aN(new A.bg("secreta123",B.a4,B.W),s))}}
+return new A.JQ(new A.aN(new A.bg("",B.a4,B.W),s),new A.aN(new A.bg("",B.a4,B.W),s))}}
 A.JQ.prototype={
 w2(){var s=0,r=A.t(t.H),q,p=2,o=[],n=[],m=this,l,k,j,i,h,g,f,e,d,c,b,a
 var $async$w2=A.o(function(a0,a1){if(a0===1){o.push(a1)
